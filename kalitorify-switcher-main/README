@@ -5,7 +5,6 @@
   For using it, you need to execute the following commands first:
 
   apt install tor -y
-  git clone https://github.com/brainfucksec/kalitorify.git
   cd kalitorify
   make install
   
