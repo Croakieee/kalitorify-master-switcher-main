@@ -1,0 +1,15 @@
+--INFO
+  This tool allows to manually switch of country using "Tor" service and "kalitorify".
+  
+--PREREQUISITES
+  For using it, you need to execute the following commands first:
+
+  apt install tor -y
+  git clone https://github.com/brainfucksec/kalitorify.git
+  cd kalitorify
+  make install
+  
+--USAGE
+  python3 switch.py -c <country> -speed <sleep between circuit change>
+  
+  For faster switching use speed 0, for avoiding errors or for slow systems use speed 10.

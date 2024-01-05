@@ -1,0 +1,122 @@
+/* kalitorify CHANGELOG */
+
+```
+Format:
+
+/** version number / date **/
+
+[committer] username
+
+arguments
+
+```
+
+/** 1.24.0 / 2020-10-03 **/
+
+[committer] brainfucksec
+
+New CHANGELOG file
+
+IMPORTANT:
+
+Only changes that are important to users will be written to this file.
+Please see git `/commits/master` for technical details of the program changes.
+
+
+/** 1.24.3 / 2020-12-10 **/
+
+[committer] brainfucksec
+
+Add exception (check tor service) on `stop()` function.
+
+
+/** 1.24.4 / 2020-12-21 **/
+
+[committer] brainfucksec
+
+BUGFIX, fix `start()` function (add `check_settings()`).
+
+See: ISSUE #52
+
+
+/** 1.25.0 / 2021-01-23 **/
+
+[committer] brainfucksec
+
+Improve function for check program settings
+Improve output messages
+
+
+/** 1.26.0 / 2021-04-19 **/
+
+[committer] brainfucksec
+
+Update README
+Little changes on output messages
+
+
+/** 1.26.1 / 2021-04-20 **/
+
+[committer] brainfucksec
+
+Update README
+Improve code
+
+
+/** 1.26.2 / 2021-09-14 **/
+
+[committer] brainfucksec
+
+Update data/torrc, Makefile
+
+
+/** 1.26.3 / 2021-10-31
+
+[committer] brainfucksec
+
+Fix main() function
+
+
+/** 1.26.4 / 2021-11-06 **/
+
+[committer] brainfucksec
+
+Fix function for error handling
+Update README (update links, instructions)
+
+
+/** 1.27.1 / 2022-03-10 **/
+
+[committer] brainfucksec
+
+Fix curl request in check_status() function (kalitorify -s, --status)
+
+
+/** 1.27.2 / 2022-05-05 **/
+
+[committer] brainfucksec
+
+Change list if IP address API service (function check_ip())
+
+
+/** 1.27.3 / 2022-05-05 **/
+
+[committer] brainfucksec
+
+Fix function check_ip()
+
+
+/** 1.28.0 / 2022-05-22 **/
+
+[committer] brainfucksec
+
+Change directory for program executable (old: /usr/local/bin/kalitorify, new: /usr/bin/kalitorify)
+Change backup directory (old: /usr/share/kalitorify/backups, new: /var/lib/kalitorify/backups)
+Change Makefile
+
+
+/** 1.29.0 / 2022-05-31 **/
+
+[committer] brainfucksec
+
+Fix function for check Tor settings, some changes (see: commit, commit message)
