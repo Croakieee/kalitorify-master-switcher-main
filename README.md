@@ -49,7 +49,7 @@ For more information about the Transparent Proxy through Tor please read the [To
 Download with `git`:
 
 ```term
-git clone https://github.com/brainfucksec/kalitorify
+https://github.com/Croakieee/kalitorify-master-switcher-main.git
 ```
 
 ### Install dependencies:
