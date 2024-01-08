@@ -231,21 +231,6 @@ See: [Transparent Proxy: Checking for leaks](https://gitlab.torproject.org/legac
 
 Warning: the example video might refer to an older version.
 
----
-
-## Credits
-
-* kalitorify is a KISS version of [Parrot AnonSurf Module](https://nest.parrot.sh/packages/tools/anonsurf) of [Parrot OS](https://www.parrotsec.org/). Thank you guys for give me the way in developing this program.
-
-* The realization of this program was possible only with:
-
-    * The [Tor Project documentation](https://gitlab.torproject.org/tpo/tpa/team/-/wikis/home)
-
-    * The [Whonix](https://www.whonix.org/) Team and their [documentation](https://www.whonix.org/wiki/Documentation)
-
-    * [All the people who contribute](https://github.com/brainfucksec/kalitorify/graphs/contributors)
-
-    * All users who with their reports help to improve this project.
 
 * "KALI LINUX ™" is a trademark of Offensive Security. Please see: https://www.kali.org
 
